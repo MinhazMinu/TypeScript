@@ -70,3 +70,9 @@ tsc --watch
     "include": ["src"]
 }
 ```
+
+-   At this moment ts compiler showing error but it is not stopping to compile in js file. So, if we want to stop compilation if there is any error in ts file we can change the _"noEmitOnError"_ property in tsconfig.json file.
+
+```json
+"noEmitOnError": true
+```
